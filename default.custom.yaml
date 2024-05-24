@@ -7,3 +7,11 @@ patch:
     - { accept: "Control+apostrophe", toggle: liu_w2c, when: always }   #顯示同音字
     - { accept: "Control+slash", toggle: extended_charset, when: always}
     - { accept: "Shift+space", toggle: full_shape, when: always}
+    - {accept: Control_R, toggle: ascii_mode, when: always}
+  # ref: https://gist.github.com/lotem/2981316
+  - ascii_composer/switch_key:
+      Caps_Lock: noop
+      Shift_L: noop
+      Shift_R: noop
+      Control_L: noop
+      Control_R: noop
