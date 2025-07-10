@@ -1,7 +1,7 @@
 #!/bin/sh
 PROGRAM="install.sh"
 PLUM_URL="https://raw.githubusercontent.com/rime/plum/master/rime-install"
-LIUR_CONF="https://raw.githubusercontent.com/hftsai256/rime-liur-lua/master/liur-lua-packages.conf"
+LIUR_CONF="https://raw.githubusercontent.com/rueshyna/rime-liur-lua/master/liur-lua-packages.conf"
 FCITX_BREEZE="https://arch.mirror.constant.com/extra/os/x86_64/fcitx5-breeze-2.0.0-2-any.pkg.tar.zst"
 TMPDIR="/tmp/liur"
 
